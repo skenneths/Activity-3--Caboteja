@@ -25,7 +25,6 @@ def values():
     IV = int(input("IV (1-31): "))
     EV = int(input("EV (1-255): "))
     lvl = int(input("Level: "))
-
     if thestat > 1 or anostats[thestat-1] != "HP":
         print("What Nature?")
         print("\t1. Hardy       6. Bold        11. Timid       16. Modest       21. Calm")
